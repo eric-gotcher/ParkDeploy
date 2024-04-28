@@ -9,7 +9,7 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 queue = Queue()
 
 DEFAULT_VIDEO_PATH = "https://firebasestorage.googleapis.com/v0/b/parking-with-devops.appspot.com/o/istockphoto-1046782266-640-adpp-is_dNpvycW4.mp4?alt=media&token=52ae3e31-e5a5-4beb-8577-2d77f2f71474"
-MODEL_PATH = "/Users/ericgotcher/projects/runs/detect/train33/weights/best.pt"
+MODEL_PATH = "https://firebasestorage.googleapis.com/v0/b/parking-with-devops.appspot.com/o/best.pt?alt=media&token=c8a71ce0-7731-400d-93eb-b4b36ce8c709"
 classNames = ["Empty", "Space Taken"]
 process_thread = None  # Initialize process_thread
 
